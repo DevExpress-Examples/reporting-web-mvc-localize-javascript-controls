@@ -1,0 +1,41 @@
+<head>
+    <title></title>
+
+    <link href="node_modules/jquery-ui-dist/jquery-ui.min.css" rel="stylesheet" />
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+
+    <script src="node_modules/knockout/build/output/knockout-latest.js"></script>
+
+    <!--Link DevExtreme resources-->
+    <script src="node_modules/devextreme/dist/js/dx.all.js"></script>
+    <link href="node_modules/devextreme/dist/css/dx.common.css" rel="stylesheet" />
+    <link href="node_modules/devextreme/dist/css/dx.light.css" rel="stylesheet" />
+
+    <!-- Optionally (for intelligent code completion in the Expression Editor and Filter Editor) -->
+    <script src="node_modules/ace-builds/src/ace.js"></script>
+    <script src="node_modules/ace-builds/src/ext-language_tools.js"></script>
+    <script src="node_modules/ace-builds/src/snippets/text.js"></script>
+    <!--  -->
+
+    <!-- Link Rich Edit scripts and styles between DevExtreme and Reporting links -->
+    <script src="node_modules/jszip/dist/jszip.min.js"></script>
+    <script src="node_modules/devexpress-richedit/dist/dx.richedit.min.js"></script>
+    <link href="node_modules/devexpress-richedit/dist/dx.richedit.css" rel="stylesheet" />
+
+    <!-- Link the Reporting resources -->
+    <script src="node_modules/@devexpress/analytics-core/dist/js/dx-analytics-core.js"></script>
+    <script src="node_modules/@devexpress/analytics-core/dist/js/dx-querybuilder.js"></script>
+    <script src="node_modules/devexpress-reporting/dist/js/dx-webdocumentviewer.js"></script>
+    <script src="node_modules/devexpress-reporting/dist/js/dx-reportdesigner.js"></script>
+    <link href="node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css" rel="stylesheet" />
+    <link href="node_modules/@devexpress/analytics-core/dist/css/dx-analytics.light.css" rel="stylesheet" />
+    <link href="node_modules/@devexpress/analytics-core/dist/css/dx-querybuilder.css" rel="stylesheet" />
+    <link href="node_modules/devexpress-reporting/dist/css/dx-webdocumentviewer.css" rel="stylesheet" />
+    <link href="node_modules/devexpress-reporting/dist/css/dx-reportdesigner.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div style="width:100%; height: 1000px" data-bind="dxReportDesigner: designerOptions" ></div>
+    <script type="text/javascript" src="example.js"></script>
+</body>
