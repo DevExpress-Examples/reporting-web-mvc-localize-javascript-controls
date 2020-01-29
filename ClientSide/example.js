@@ -9,9 +9,8 @@ const host = 'http://localhost:56742/',
 			getLocalizationAction: "/ReportDesigner/GetLocalization" 
 		},
 		callbacks: {
-			// Handle the CustomizeLocalization event to load the DevExpress Localization Service JSON files.
-            // (Optional) Handle the CustomizeLocalization event and call the UpdateLocalization method
-			// to localize a particular string.
+		// Handle the CustomizeLocalization event to load the DevExpress Localization Service JSON files.
+            	// (Optional) Handle the CustomizeLocalization event and call the UpdateLocalization method to localize a particular string.
 			CustomizeLocalization: function (s, e) {
 				e.LoadMessages($.get("/dx-analytics-core.de.json")); // Load files obtained from DevExpress Localization Service. 
 				e.LoadMessages($.get("/dx-reporting.de.json")); // Load files obtained from DevExpress Localization Service. 
