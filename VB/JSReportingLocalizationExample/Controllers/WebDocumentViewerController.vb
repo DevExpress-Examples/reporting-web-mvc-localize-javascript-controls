@@ -7,7 +7,7 @@ Imports System.Web.Mvc
 
 Namespace JSReportingLocalizationExample.Controllers
 	Public Class WebDocumentViewerController
-		Inherits WebDocumentViewerApiController
+		Inherits WebDocumentViewerApiControllerBase
 
 		' GET: WebDocumentViewerApi
 		Public Function Index() As ActionResult
