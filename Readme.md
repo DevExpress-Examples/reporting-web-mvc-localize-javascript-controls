@@ -21,4 +21,4 @@ To run the example, perform the following steps:
 4. Run the Visual Studio project.
 5. Open the URL **localhost:1020** (port number may be different, as specified in step 3) in your browser.
 
-![](/images/screenshot.png)
+![Screenshot](/images/screenshot.png)
