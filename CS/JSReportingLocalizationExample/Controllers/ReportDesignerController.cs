@@ -12,7 +12,7 @@ using System.Web.Mvc;
 
 namespace JSReportingLocalizationExample.Controllers
 {
-    public class ReportDesignerController : ReportDesignerApiController
+    public class ReportDesignerController : ReportDesignerApiControllerBase
     {
         // GET: ReportDesigner
         public ActionResult Index()
