@@ -1,10 +1,10 @@
 {
     "name": "report-designer-example",
     "dependencies": {
-        "devextreme": "^20.2.2",
-        "devexpress-richedit": "^20.2.2",
-        "@devexpress/analytics-core": "^20.2.2",
-        "devexpress-reporting": "^20.2.2",
+        "devextreme": "^21.1.2",
+        "devexpress-richedit": "^21.1.2",
+        "@devexpress/analytics-core": "^21.1.2",
+        "devexpress-reporting": "^21.1.2",
         "jquery-ui-dist": "^1.12.1",
         "ace-builds": "^1.3.3"
     }
