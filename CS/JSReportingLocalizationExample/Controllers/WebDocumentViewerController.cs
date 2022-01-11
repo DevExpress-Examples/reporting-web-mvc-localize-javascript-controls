@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace JSReportingLocalizationExample.Controllers
 {
-    public class WebDocumentViewerController : WebDocumentViewerApiControllerBase
+    public class WebDocumentViewerController : WebDocumentViewerApiController
     {
         // GET: WebDocumentViewerApi
         public ActionResult Index()

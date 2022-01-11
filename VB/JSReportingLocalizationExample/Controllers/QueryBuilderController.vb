@@ -7,7 +7,7 @@ Imports System.Web.Mvc
 
 Namespace JSReportingLocalizationExample.Controllers
 	Public Class QueryBuilderController
-		Inherits QueryBuilderApiControllerBase
+		Inherits QueryBuilderApiController
 
 		' GET: QueryBuilder
 		Public Function Index() As ActionResult

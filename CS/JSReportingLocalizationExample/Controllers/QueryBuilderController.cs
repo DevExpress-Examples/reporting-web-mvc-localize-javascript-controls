@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace JSReportingLocalizationExample.Controllers
 {
-    public class QueryBuilderController : QueryBuilderApiControllerBase
+    public class QueryBuilderController : QueryBuilderApiController
     {
         // GET: QueryBuilder
         public ActionResult Index()
