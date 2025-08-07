@@ -6,7 +6,7 @@
 <!-- default badges end -->
 # Reporting for JavaScript - How to Localize the Reporting Controls in an Application with Knockout Bindings
 
-This example includes the server-side (backend) application which is an ASP.NET MVC application created from the DevExpress Visual Studio template. The client-side (front-end) application is created in JavaScript with **npm**.
+This example includes the server-side (backend) application (an ASP.NET MVC application created from the DevExpress Visual Studio template). The client-side (front-end) application is created in JavaScript with **npm**.
 
 ![Screenshot](/images/screenshot.png)
 
@@ -14,8 +14,8 @@ This example includes the server-side (backend) application which is an ASP.NET 
 
 To run the example, perform the following steps:
 
-1. Open the **CS** or **VB** solution in Visual Studio and rebuild to install the required NuGet packages.
-2. Run the command prompt, navigate to the ClientSide folder, and execute the command:
+1. Open the *CS* or *VB* solution in Visual Studio and rebuild to install the required NuGet packages.
+2. Navigate to the *ClientSide* folder and execute the command:
     
     ```
     npm install
@@ -23,7 +23,6 @@ To run the example, perform the following steps:
 3. Open the Internet Information Services manages and add a website whose content's physical path is the **ClientSide** folder. Specify any free port, in this example, it is **1020**. Start the website.
 4. Run the Visual Studio project.
 5. Open the URL **localhost:1020** (port number may be different, as specified in step 3) in your browser.
-
 
 ## Documentation
 
